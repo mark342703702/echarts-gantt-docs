@@ -1,5 +1,6 @@
 // .vitepress/config.js
 export default {
+  base: "/echarts-gantt-docs/",
   title: "Echarts-Gantt",
   description: "这是一个甘特图组件的使用文档",
   themeConfig: {

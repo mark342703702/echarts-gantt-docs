@@ -42,7 +42,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
+<<<<<<< HEAD
         run: yarn install # 或 pnpm install / yarn install / bun install
+=======
+        run: npm ci # 或 pnpm install / yarn install / bun install
+>>>>>>> abca8c57fd7b2ae25981f453e755336e6e51b638
       - name: Build with VitePress
         run: |
           npm run docs:build
